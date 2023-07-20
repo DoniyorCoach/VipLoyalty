@@ -1,0 +1,10 @@
+.navbar {
+  height: 64px;
+
+  justify-content: space-around;
+  align-items: center;
+
+  &__name {
+    letter-spacing: .3rem;
+  }
+}

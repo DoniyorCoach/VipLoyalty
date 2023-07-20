@@ -1,0 +1,16 @@
+.registrationPage {
+  &__avatar {
+    margin: auto !important;
+  }
+  &__footer {
+    position: absolute;
+
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__btn {
+    border-radius: 6px !important;
+  }
+}

@@ -1,0 +1,11 @@
+.walletsPage {
+  &__card {
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      transition: all 0.4s ease;
+      transform: scale(99%);
+    }
+  }
+}

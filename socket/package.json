@@ -1,0 +1,22 @@
+{
+	"name": "socketserver",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "npm run build && node build/index",
+		"build": "rimraf ./build && npx tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"socket.io": "^4.7.1"
+	},
+	"devDependencies": {
+		"rimraf": "^5.0.1",
+		"typescript": "^5.1.6"
+	}
+}

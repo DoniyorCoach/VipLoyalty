@@ -1,0 +1,13 @@
+.loadingPage {
+  height: 80vh;
+
+  justify-content: center;
+  align-items: center;
+
+  &__spinner {
+    min-width: 50px;
+    min-height: 50px;
+    width: 6%;
+    height: 6%;
+  }
+}

@@ -1,0 +1,10 @@
+.applicationPage {
+  padding: 20px;
+  margin: 0 auto;
+
+  &__text {
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    border-radius: 6px;
+  }
+}

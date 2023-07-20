@@ -1,0 +1,18 @@
+.carousel {
+  user-select: none;
+
+  .card {
+    border-radius: 6px;
+    cursor: pointer;
+
+    &__wrapper {
+      margin: 8px;
+
+      &:hover {
+        transition: all 0.4s ease;
+        transform: scale(99%);
+        opacity: 85%;
+      }
+    }
+  }
+}

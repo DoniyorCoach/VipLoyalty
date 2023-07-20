@@ -1,0 +1,12 @@
+.ceil {
+  display: flex;
+
+  padding: 20px;
+  gap: 15px;
+
+  align-items: center;
+
+  &__text {
+    flex-grow: 1;
+  }
+}

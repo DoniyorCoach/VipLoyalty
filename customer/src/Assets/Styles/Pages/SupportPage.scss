@@ -1,0 +1,8 @@
+.supportPage {
+  height: calc(100vh - 168px); // navbar, navigation and margin
+
+  &__messages {
+    overflow-y: auto;
+    flex-grow: 1;
+  }
+}

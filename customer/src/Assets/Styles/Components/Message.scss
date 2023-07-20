@@ -1,0 +1,17 @@
+.message {
+  min-width: 150px;
+  width: max-content;
+  max-width: 40%;
+
+  padding: 12px;
+
+  @media screen and (max-width: 1000px) {
+    max-width: 65%;
+  }
+  @media screen and (max-width: 800px) {
+    max-width: 85%;
+  }
+  @media screen and (max-width: 500px) {
+    max-width: 95%;
+  }
+}
